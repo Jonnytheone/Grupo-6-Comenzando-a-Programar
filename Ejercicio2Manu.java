@@ -7,7 +7,7 @@ public class Ejercicio2Manu {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        // Contadores y acumuladores globales
+        
         int totalParticipantes = 0;
         int contadorMenos60Min = 0;
         int contadorMas3Carreras = 0;
