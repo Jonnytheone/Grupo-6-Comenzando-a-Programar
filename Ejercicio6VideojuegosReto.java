@@ -2,7 +2,7 @@ package retoComenzandoAProgramar;
 
 import java.util.Scanner;
 
-public class Ejercicio5VideojuegosReto {
+public class Ejercicio6VideojuegosReto {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,8 +22,9 @@ public class Ejercicio5VideojuegosReto {
 		}
 		
 		for (int i=1; i<=usuarios; i++) {
+			puntos=0;
+			enemigos=0;
 			user = "default";
-			
 			do {
 				System.out.println(" ");
 				System.out.println("Usuario "+i);
@@ -63,7 +64,7 @@ public class Ejercicio5VideojuegosReto {
 				
 				enemigosTotal=enemigosTotal + enemigos;
 				
-				enemigosTotalTodos=enemigosTotalTodos + enemigosTotal;
+				enemigosTotalTodos=enemigosTotalTodos + enemigos;
 			}
 			
 			if (puntosTotal>1000) {
